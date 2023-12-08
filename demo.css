@@ -1,0 +1,222 @@
+.container{
+    margin: -7px;
+}
+.header{
+    background-color:#f5f5f2;
+    width: 100%;
+    height: 40px;
+}
+.rt_head{
+    width:50%;
+    float: left;
+}
+.table1{
+    padding-top: 5px;
+    margin-left: 100px;
+    
+
+}
+.icon{
+    width: 20px;
+}
+.padding{
+    padding-left: 1px;
+}
+.text{
+    font-style:normal ;
+    font-weight: bold;
+    font-size: small;
+}
+.second_div{
+    background-color: #c79924;
+    width: 100%;
+    height: 62px;
+    margin-top: 30px;
+    
+}
+.logo{
+    float: left;
+    
+}
+.logopic{
+    margin-top: 2px;
+    width: 323px;
+    height: 60px;
+    
+}
+
+
+.button {
+    border: none;
+    background-color: #c79924;
+    font-weight: bolder;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    cursor: pointer;
+  }
+  .table{
+    float: left;
+  }
+  .Searchbox{
+    margin-top: 14px;
+    border-radius:25px 25px;
+    height: 32px;
+    width: 330px;
+    border: none;
+    padding: 3px;
+
+    
+  }
+  .blank{
+    
+    width: 100%;
+    height: 60px;
+    background-color: #f5f5f2;
+    float: left;
+  }
+
+  
+ .find{
+    margin-top: 15px;
+    margin-left: 45px;
+    width: 70%;
+    height: 180px;
+    background-color: #f5f5f2;
+    border-radius: 25px;
+    border-style: groove;
+    border-width: 1px;
+    border-color: #247b8f;
+    float: left;
+    
+ }
+ .bookings{
+    width: 20%;
+    height: 180px;
+    background-color: #f5f5f2;
+    margin-top: 15px;
+    margin-left: 40px;
+    float: left;
+ }
+ .booking_text{
+    font-size: 25px;
+    font-weight: bold;
+    margin:10px 0 0 10px;
+    
+
+ }
+ .doctors_list{
+    width:  1400px;
+    
+    height: 900px;
+    margin: 20px 0 0 40px;
+    float: left;
+ }
+ .doctor{
+    width: 680px;
+    height: 150px;
+    margin-left: 15px;
+    margin-top: 25px;
+    border-radius: 25px;
+    border-style: groove;
+    border-width: 1px;
+    box-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.4) ;
+    border-color: #c79924;
+    float:left
+
+ }
+ .profile{
+    margin: 26px 0px 0px 20px;
+    height: 100px;
+    width: 92px;
+    border-radius: 50px;
+    float: left;
+
+ }
+ .doctor_details{
+    margin: 20px 0px 0px 30px;
+    float: left;
+ }
+ .name{
+    font-size: 38px;
+    font-weight: bold;
+    
+ }
+.details{
+    font-size: large;
+    font-weight:500 ;
+    
+    
+}
+.fee_book{
+    text-align: center;
+    margin-top: 45px;
+    padding-left: 30px;
+    
+}
+#schedule_btn{
+    border: none;
+    background-color: #c79924;
+    font-weight: bolder;
+    color: white;
+    font-size: 15px;
+    height: 45px;
+    width: 190px;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+#booking_date{
+    display: none;
+    margin: 185px 0px 0px 44px;
+    width: 600px;
+    height: 65px;
+    border-radius: 25px;
+    border-style: groove;
+    border-width: 1px;
+    box-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.4) ;
+    border-color: #c79924;
+    
+             
+}
+#date_display{
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    
+    font-size: 16px;
+}
+.date_changer{
+    width: 50%;
+    margin: 20px 0px 0px 12px;
+    float: left;
+    
+}
+.change_bt{
+    border-radius: 50px;
+    color: white;
+    background-color: #c79924;
+    border: none;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+#calander_bt{
+    margin: 20px 0px 0px 100px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    background: transparent;
+    border: none ;
+    cursor: pointer;
+}
+#calendar{
+    margin: 26px 0px 0px 317px;
+    float: left;
+
+
+}
