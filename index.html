@@ -10,7 +10,14 @@
             }
         </style>
         <link rel="stylesheet" href="index.css" type="text/css">
-        <script src="index.js" defer></script>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
 
     </head>
     <body>
@@ -80,25 +87,31 @@
                         <tr><td class="details">Oncologist, 8 year experience</td></tr>
                         <tr><td class="details">Aister Mims, calicut</td></tr>
                         <tr><td class="details">⭐️ 4.3 (100 reviews)</td></tr>
-
-
+    
+    
                     </table>
                     <table class="fee_book">
                         <tr><td>₹500-consultation fees</td></tr>
                         <tr><td><button  id="schedule_btn">Schedule Appointment</button></td></tr>
-
+    
                     </table>
-
+    
                 </div>
                 <div id="booking_date">
                     <div class="date_changer">
                         <button id="lt_bt" class="change_bt" >&lt;</button>
-                        <input id="date_display" type="text" style="border: none; outline: none;height: 20px;" placeholder="Today" readonly="readonly">
+                        <input id="date_display" type="text"  style="border: none; outline: none;height: 20px;"  readonly="readonly" value="Today">
                         <button id="rt_bt" class="change_bt">&gt;</button>
                     </div>
-                    
+                    <div id="select_date">
+                        <div id="datepicker"></div>
+                        <button id="calander_bt"  ><i class='far fa-calendar-alt' style="color: #c79924;"></i> Select Date </i></button>
+                        <div id="calendar" style="display: none;"></div>
+                        
+    
+                    </div>
                 </div>
-                
+            
 
                 <div class="doctor">
                     <img class="profile" src="male_doc.png">
@@ -221,6 +234,6 @@
             </div>
             
         </div>
-        
+        <script src="index.js" defer></script>
     </body>
 </html>

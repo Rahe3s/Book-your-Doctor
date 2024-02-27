@@ -183,17 +183,21 @@
     
              
 }
-::placeholder{
+
+.date_changer{
+    width: 50%;
+    margin: 20px 0px 0px 12px;
+    
+    float: left;
+    
+}
+#date_display{
     font-weight: bold;
     color: black;
     text-align: center;
     
     font-size: large;
-}
-.date_changer{
-    width: 40%;
-    margin: 20px 0px 0px 12px;
-    
+    float: left;
 }
 .change_bt{
     border-radius: 50px;
@@ -202,4 +206,21 @@
     border: none;
     height: 30px;
     width: 30px;
+    cursor: pointer;
+    float: left;
+}
+#calander_bt{
+    margin: 20px 0px 0px 100px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    background: transparent;
+    border: none ;
+    cursor: pointer;
+}
+#calendar{
+    margin: 26px 0px 0px 317px;
+    float: left;
+
+
 }
